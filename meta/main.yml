@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Luke Milius (@lmilius)
+  description: Playbook for deploying an ovirt server
+
+  issue_tracker_url: https://github.com/lmilius/ansible-ovirt/issues
+  license: Apache
+  min_anisble_version: 1.9
+  platforms:
+  - name: Fedora
+    versions:
+    - all
+  - name: EL
+    versions:
+    - 7
+  galaxy_tags:
+    - ovirt
+    - virtualization
+dependencies: []
