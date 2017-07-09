@@ -33,4 +33,5 @@ ansible-playbook -i hosts install/ovirt.yml
             │   └── main.yml
             └── templates
                 └── serverconfig.xml.j2
+                |-- testing
 ```
