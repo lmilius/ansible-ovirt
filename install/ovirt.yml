@@ -1,0 +1,9 @@
+---
+#
+# Ansible playbook to install ovirt
+#
+
+- hosts: ovirt
+  remote_user: administrator
+  roles:
+    - { role: ovirtserver }
